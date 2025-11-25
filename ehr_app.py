@@ -502,3 +502,11 @@ if st.button("Save Encounter (demo only)"):
 
     st.success("Encounter captured (demo only, not stored in a database).")
     st.json(encounter)
+    st.markdown(
+    "[Open full Insurance Eligibility app](https://YOUR-ELIGIBILITY-APP-URL)  "
+    "(Hosted separately on Streamlit Cloud)."
+)
+st.markdown(
+    "[Open full RCM Billing Dashboard](https://YOUR-RCM-APP-URL)"
+)
+
